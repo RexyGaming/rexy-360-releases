@@ -1,0 +1,74 @@
+REXY 360 / REXY STUDIO — THIRD-PARTY NOTICES
+
+Rexy 360 is closed-source software (c) 2026 Real Pro Gear Ltd. It includes, or downloads on first use, the
+components below, each under its own licence. Full licence texts ship with the app where marked.
+
+INCLUDED
+
+ffmpeg / ffprobe — LGPL v3 (LGPL-only build: no GPL or non-free parts). https://ffmpeg.org
+  Used as separate programs (not linked into Rexy 360). The full licence is in tools/ffmpeg/LICENSE.txt.
+  This build: FFmpeg n8.1.3 (2026-10-12), the "lgpl" variant of BtbN/FFmpeg-Builds —
+  https://github.com/BtbN/FFmpeg-Builds (build scripts) and https://ffmpeg.org (source). The source code for
+  this exact build is also available on request from Real Pro Gear Ltd. You may replace these ffmpeg
+  programs with your own build.
+
+Electron — MIT. Copyright (c) Electron contributors, GitHub Inc. https://electronjs.org
+  Electron includes Chromium and other components under their own licences (LICENSES.chromium.html,
+  shipped with the app).
+
+mediabunny 1.60.0 — Mozilla Public License 2.0. https://github.com/Vanilagy/mediabunny
+  Used unmodified; its source code is available at the address above.
+
+@kmamal/sdl — MIT. Copyright (c) Kostas Mamalakis. https://github.com/kmamal/node-sdl
+  Includes SDL2 — zlib licence. Copyright (C) 1997-2025 Sam Lantinga. https://libsdl.org
+
+Inter (font) — SIL Open Font License 1.1. Copyright (c) The Inter Project Authors. https://rsms.me/inter
+JetBrains Mono (font) — SIL Open Font License 1.1. Copyright (c) The JetBrains Mono Project Authors.
+
+Rexy 360's controller input, virtual motion control, lens and Alt Inputs code comes from Rexy Bridge, by the
+  same author (Robert Portazier); it is part of Rexy 360 and covered by its licence.
+
+NODO Inertia Wheels (IW-API) — the packet format is taken from NODO's open-source IW-OSC app (MIT),
+  https://github.com/nodofilm/iw-osc. No NODO code is included.
+
+DOWNLOADED ON FIRST USE (from their official GitHub releases; not part of the Rexy 360 download)
+
+yt-dlp — The Unlicense (public domain). https://github.com/yt-dlp/yt-dlp
+Deno — MIT. Copyright (c) the Deno authors. https://github.com/denoland/deno
+
+------------------------------------------------------------------------------------------------------------
+MIT License (Electron, @kmamal/sdl, Deno — each with its own copyright line above)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+------------------------------------------------------------------------------------------------------------
+zlib licence (SDL2)
+
+This software is provided 'as-is', without any express or implied warranty. In no event will the authors be
+held liable for any damages arising from the use of this software. Permission is granted to anyone to use
+this software for any purpose, including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions: 1. The origin of this software must not be misrepresented;
+you must not claim that you wrote the original software. If you use this software in a product, an
+acknowledgment in the product documentation would be appreciated but is not required. 2. Altered source
+versions must be plainly marked as such, and must not be misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+
+------------------------------------------------------------------------------------------------------------
+SIL Open Font License 1.1 (Inter, JetBrains Mono): https://openfontlicense.org — the fonts may be bundled
+with software and used freely; they may not be sold on their own.
+
+Mozilla Public License 2.0 (mediabunny): https://mozilla.org/MPL/2.0/
+GNU Lesser General Public License v3 (ffmpeg): tools/ffmpeg/LICENSE.txt, https://www.gnu.org/licenses/lgpl-3.0.html
