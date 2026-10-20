@@ -1,5 +1,5 @@
 REXY 360 / REXY STUDIO — END USER LICENCE AGREEMENT
-Version 1.0 (Rexy 360 1.0.0-beta)
+Version 1.0 (Rexy 360 1.0.x beta)
 
 Copyright (c) 2026 Real Pro Gear Ltd. All rights reserved.
 
