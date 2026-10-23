@@ -11,6 +11,13 @@ ffmpeg / ffprobe — LGPL v3 (LGPL-only build: no GPL or non-free parts). https:
   https://github.com/BtbN/FFmpeg-Builds (build scripts) and https://ffmpeg.org (source). The source code for
   this exact build is also available on request from Real Pro Gear Ltd. You may replace these ffmpeg
   programs with your own build.
+  macOS build: FFmpeg n8.1.3 from https://ffmpeg.org source (git tag n8.1.3), unmodified, built by Real Pro
+  Gear Ltd for Apple Silicon (arm64) and Intel (x86_64) with build/build-ffmpeg-mac.sh:
+    configure --enable-version3 --disable-gpl --disable-nonfree --enable-videotoolbox --enable-audiotoolbox
+      --disable-doc --disable-debug --disable-ffplay --disable-autodetect --enable-zlib --enable-bzlib
+      --enable-iconv --arch=<arm64|x86_64> --target-os=darwin --enable-cross-compile
+      --extra-cflags=-mmacosx-version-min=12.0 --extra-ldflags=-mmacosx-version-min=12.0 --extra-libs=-liconv
+  In the Mac app the programs and licence are in Rexy 360.app/Contents/Resources/ffmpeg/.
 
 Electron — MIT. Copyright (c) Electron contributors, GitHub Inc. https://electronjs.org
   Electron includes Chromium and other components under their own licences (LICENSES.chromium.html,
