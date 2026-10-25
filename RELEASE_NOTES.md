@@ -1,3 +1,18 @@
+# Rexy 360 1.0.2-beta — wheels in mouse mode, YouTube cubemaps
+
+## New
+- **Mouse devices (Alt Inputs, Windows).** Hand wheels that only send a mouse signal over USB can now drive Rexy 360. Tick **listen** and every mouse shows up by name, with its x, y, wheel and buttons — **Bind** a control and move the one you want. Works like an absolute wheel: **range** sets how many counts cover a control, **Zero** re-centres.
+- **Ctrl+M detaches the cursor** while the wheels drive: the pointer holds still (clicks and scrolling still work), the wheels keep moving the head. Ctrl+M again — or switching to another app — gives the cursor back. Also bindable in Functions.
+- **YouTube 360 cubemaps** that download squeezed into 16:9 (with no 360 tag) are recognised and converted, instead of being refused as "not a 360 file".
+- **Alt Inputs** are now in the order Mouse devices, OSC, MIDI, FreeD, NODO.
+
+## Fixed
+- Wheels (mouse devices and NODO) no longer pile up turns past the end of a control's range — turning back moves it straight away.
+- No more "WiFi stall?" warnings for inputs that only send when moved (mice, NODO, MIDI).
+- A sound mix could occasionally fail when a shot's sound started after the beginning of a render.
+
+---
+
 # Rexy 360 1.0.1-beta — cut to the music
 
 ## New
