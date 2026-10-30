@@ -1,0 +1,18 @@
+== The render queue ==
+'''Export — render queue''': pick a shape, size and codec, set the folder, and '''Render now''' — or queue several. Any render can be cancelled. Snapshots can be taken too.
+
+Renders come from the '''full-resolution original''', with the shot's look and sound.
+
+== Codecs ==
+* '''H.264'''
+* '''HEVC''' — needs a graphics-card encoder that does HEVC (on Windows).
+* '''ProRes'''
+
+== Encoders ==
+; Windows : NVIDIA NVENC (recommended), Intel Quick Sync, AMD, or Windows Media Foundation — and software H.264 when none is available.
+; Mac : Apple VideoToolbox — every Mac can render H.264, HEVC and ProRes.
+
+== Rendering an Edit ==
+On the Edit screen, '''Render edit''' renders the whole Edit. '''Set In / Set Out''' (Export panel) or the '''I / O''' keys mark part of it for '''Render now'''. See [[Rexy 360: Editing#Rendering the Edit|Editing]].
+
+{{Rexy 360 nav}}

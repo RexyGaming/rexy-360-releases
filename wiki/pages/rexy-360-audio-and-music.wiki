@@ -1,0 +1,16 @@
+== Tracks ==
+* Music and sound tracks run on the film's time, with fades and volume keys.
+* '''Sync to clip audio''' lines a track up with the clip's own sound.
+* Audio can be imported from a link.
+
+== Master music ==
+In a clip's '''Audio''' panel (Shoot screen), '''★''' star the track the edit should follow — or leave it on the clip's own sound. A song imported into a clip's Audio panel is its master music without needing a ★.
+
+On the Edit, shots land on the music — see [[Rexy 360: Editing#Shots on the music|Editing]].
+
+== Audio → Move ==
+'''Audio → Move…''' makes moves that '''pulse on the beat''' or '''follow the loudness''' of any track. Layers can be stacked and trimmed on the timeline, with '''Threshold''' and '''Smooth''' controls.
+
+Saving a move can apply the music to it, so the music-driven movement travels to another clip.
+
+{{Rexy 360 nav}}

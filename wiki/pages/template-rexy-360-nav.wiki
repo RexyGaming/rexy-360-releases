@@ -1,0 +1,13 @@
+<noinclude>Navigation box for the Rexy 360 pages. Use <code><nowiki>{{Rexy 360 nav}}</nowiki></code> at the bottom of each page.</noinclude><includeonly>
+{| class="wikitable" style="width:100%; margin-top:2em; text-align:center;"
+! [[Rexy 360]]
+|-
+| [[Installing Rexy 360|Installing]] · [[Rexy 360: Getting started|Getting started]] · [[Rexy 360: Importing footage|Importing footage]] · [[Rexy 360: Controllers and inputs|Controllers and inputs]]
+|-
+| [[Rexy 360: The virtual head|The virtual head]] · [[Rexy 360: Lenses|Lenses]] · [[Rexy 360: Time|Time]] · [[Rexy 360: Recording moves|Recording moves]] · [[Rexy 360: Audio and music|Audio and music]]
+|-
+| [[Rexy 360: Editing|Editing]] · [[Rexy 360: Colour|Colour]] · [[Rexy 360: Rendering and export|Rendering and export]]
+|-
+| [[Rexy 360: Troubleshooting|Troubleshooting]] · [[Rexy 360: Release history|Release history]]
+|}
+[[Category:Rexy 360]]</includeonly>

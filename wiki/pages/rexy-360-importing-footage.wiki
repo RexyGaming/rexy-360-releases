@@ -1,0 +1,23 @@
+== Supported footage ==
+* '''Equirectangular''' stitched 360° video — the recommended format (e.g. exported from Insta360 Studio or GoPro Player).
+* '''YouTube 360''' — YouTube's cubemap layout and squashed-16:9 360. Since 1.0.2-beta, cubemaps that download squeezed into 16:9 with no 360 tag are recognised and converted instead of being refused as "not a 360 file".
+* '''Insta360 .insv''' — experimental (no lens calibration or FlowState).
+* '''GoPro .360''' — not yet available; export an equirectangular video from GoPro Player instead.
+
+== Opening a clip ==
+* '''Import clip…''' in the top bar.
+* Drag a video onto the viewer.
+* Add files to the '''Library''' (right-hand panel) and double-click one.
+
+== Importing from a link ==
+'''From URL…''' imports from '''YouTube''', '''Dropbox''', '''Google Drive''' or a direct link. Progress shows in the log.
+
+To take only a section of a long video, tick '''Only part of it''' and set '''From / To'''. Only download what you have the rights to use.
+
+== Proxies ==
+When a clip is opened, a proxy builds in the background (progress at the bottom of the viewer) so scrubbing is smooth. Renders always use the full-resolution original.
+
+== Projects ==
+Clips and shots live in a '''project'''. On first launch Rexy 360 makes '''My first project''' in <code>Documents\Rexy Studio Projects</code>.
+
+{{Rexy 360 nav}}

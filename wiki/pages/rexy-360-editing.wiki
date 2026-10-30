@@ -1,0 +1,24 @@
+Rexy 360 includes '''Rexy Studio''' editing: projects, a Library, and an Edit timeline.
+
+== The Edit screen ==
+Switch to '''EDIT''' (top left). The right-hand panel shows the '''Library''', '''Colour''' and '''Export''' — the operating controls stay on the Shoot screen.
+
+* Drag shots from the Library onto the timeline and trim them.
+* '''Overlay tracks''' with eight blend modes, opacity and opacity keyframes.
+* '''Transitions''' on cuts (◆): dissolves and dips.
+* A grade over the whole Edit (see [[Rexy 360: Colour|Colour]]).
+* Edit '''undo'''.
+* Mouse-wheel zoom on every timeline; '''Shift + wheel''' slides.
+
+== Free timeline and Snap ==
+Shots sit wherever you place them. Gaps are black; where two overlap, the later one wins. '''⊐⊏ Snap''' (on by default) makes drops and drags meet the shot before or after — no gaps, no overlaps.
+
+== Shots on the music ==
+Drag a shot onto the Edit and it goes straight to where its In falls in the '''master song''' (🔗 linked) — shots made from one clip line up exactly as they were on the Shoot screen. The song runs along the bottom of the Edit ('''★ Master''').
+* '''Right-click → Unlink''' to move a shot freely; '''Link''' to put it back.
+* The '''♪''' button changes the master or turns it off.
+
+== Rendering the Edit ==
+'''Render edit''' renders the whole Edit. To render part of it, mark a stretch with '''Set In / Set Out''' (Export panel) or the '''I / O''' keys, then '''Render now''' — picture and music stay in step. See [[Rexy 360: Rendering and export|Rendering and export]].
+
+{{Rexy 360 nav}}

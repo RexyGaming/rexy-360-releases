@@ -1,0 +1,18 @@
+Rexy 360 is a '''virtual motion control''' (vMoCo) system: you record your moves as takes and can then shape them.
+
+== Takes and shots ==
+* Play the clip and operate. '''REC''' records your move as a take — a '''shot'''. '''PLAY''' plays it back.
+* Every shot has its own '''In / Out''' and look. '''I / O''' set the In and Out.
+* You can '''Save over''' another take.
+* Every shot card in the Library shows a '''move thumbnail''' — the vMoCo curves in their colours — updating live as you record.
+
+== Shaping a move ==
+* '''◆ MARK''' drops marks.
+* '''✎''' (E) reshapes a track with '''anchors'''.
+
+== Saving moves ==
+'''⇩ Save / ⇧ Load''' keep moves as <code>.rxmove</code> files. Moves from Rexy Bridge load too.
+
+Saving a move can '''apply the music to it''', so music-driven movement (see [[Rexy 360: Audio and music#Audio → Move|Audio → Move]]) travels to another clip.
+
+{{Rexy 360 nav}}

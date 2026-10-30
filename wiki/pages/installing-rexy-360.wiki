@@ -1,0 +1,35 @@
+Rexy 360 is downloaded from the [https://github.com/RexyGaming/rexy-360-releases/releases/latest latest release] on GitHub.
+
+== Windows ==
+'''Windows 10 / 11 (64-bit).''' Download <code>Rexy360-Setup-&lt;version&gt;.exe</code> and run it.
+
+The installer isn't code-signed yet, so Windows shows a blue '''"Windows protected your PC"''' dialog. Click '''More info → Run anyway'''. This is expected for a beta and is not a warning about the app itself.
+
+Read and accept the licence, choose a folder, and start '''Rexy 360'''. On first launch it makes '''My first project''' in <code>Documents\Rexy Studio Projects</code>.
+
+== macOS ==
+'''macOS 12 or later.'''
+* '''Apple Silicon''' (M1 and later): <code>Rexy360-&lt;version&gt;-arm64.dmg</code>
+* '''Intel Macs''': <code>Rexy360-&lt;version&gt;-x64.dmg</code>
+
+Not sure which Mac you have? Apple menu → '''About This Mac''': "Chip: Apple M…" means Apple Silicon.
+
+Open the .dmg and drag '''Rexy 360''' to Applications.
+
+=== Opening it the first time ===
+The app isn't code-signed yet. The first time you open it, '''right-click (or Control-click) Rexy 360 → Open → Open'''. If macOS still refuses, go to '''System Settings → Privacy & Security''' and click '''Open Anyway'''.
+
+=== Controllers and Input Monitoring ===
+The first time Rexy 360 reads a gamepad or Rexy Wheels, macOS asks for '''Input Monitoring'''. Allow it (System Settings → Privacy & Security → Input Monitoring), then restart Rexy 360.
+
+== What you need ==
+* A '''stitched 360° video''' (equirectangular — e.g. exported from Insta360 Studio or GoPro Player). YouTube 360 videos can be imported straight from a link.
+* A graphics card with '''WebGL 2''' (any recent one). '''NVIDIA is recommended''' — Rexy 360 also uses Intel Quick Sync, AMD or Windows' own encoder, and falls back to software H.264 when none is available (HEVC renders need a graphics-card encoder). On a Mac, Rexy 360 uses Apple VideoToolbox — every Mac can render H.264, HEVC and ProRes.
+* '''16 GB RAM''' or more is comfortable for 5.7K footage.
+
+== Updates ==
+Rexy 360 checks for updates when it starts, and from '''About → Check for updates'''.
+* '''Windows:''' a new version downloads in the background and the top bar offers '''Restart to update'''.
+* '''Mac:''' the top bar shows '''⬇ Download''', which opens the download page for the new version.
+
+{{Rexy 360 nav}}

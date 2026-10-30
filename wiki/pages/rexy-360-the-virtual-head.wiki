@@ -1,0 +1,17 @@
+Rexy 360 puts a virtual remote head inside your 360 footage. You operate '''pan''', '''tilt''', '''roll''' and '''zoom''' as you would on a real head.
+
+== Wheel modes ==
+; Absolute : The wheel position is the angle.
+; Continuous : The wheel drives a speed, like a fluid head.
+
+== Head options ==
+* '''Horizon''' or '''Frame''' roll.
+* '''Swoop'''.
+* '''Unlimited tilt'''.
+* '''Soft stops'''.
+* '''Autolevel'''.
+* Per-axis tuning with '''S / C / D / F''' (sensitivity, curve, damping, filter) — see [[Rexy 360: Controllers and inputs#Tuning an axis|Tuning an axis]].
+
+Zoom is controlled from the '''Lens''' section — see [[Rexy 360: Lenses|Lenses]].
+
+{{Rexy 360 nav}}

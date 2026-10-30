@@ -1,0 +1,35 @@
+A quick tour from an empty project to a rendered shot. If you haven't installed Rexy 360 yet, see [[Installing Rexy 360]].
+
+== 1. Open a 360 clip ==
+* '''Import clip…''' (top bar), or drag a video onto the viewer, or add files to the '''Library''' (right-hand panel) and double-click one.
+* '''From URL…''' imports from YouTube, Dropbox, Google Drive or a direct link. Tick '''Only part of it''' and set '''From / To''' to download just a section of a long video. (Only download what you have the rights to use.)
+
+A proxy builds in the background (progress at the bottom of the viewer) so scrubbing is smooth; renders always use the original. More in [[Rexy 360: Importing footage|Importing footage]].
+
+== 2. Bind your wheels ==
+# Put '''Rexy Wheels''' in '''joystick mode''' and plug them in (or connect a gamepad).
+# In '''Head — Pan · Tilt · Roll''', click '''Bind''' on Pan, then turn the pan wheel. Do the same for Tilt and Roll — and Zoom in '''Lens'''.
+# Choose '''Absolute''' (the wheel position is the angle) or '''Continuous''' (the wheel drives a speed, like a fluid head) under '''Wheels'''.
+# Fine-tune each axis with '''S''' (sensitivity), '''C''' (curve), '''D''' (damping) and '''F''' (filter). '''C''' next to an input opens calibration and the Filter Lab.
+
+More in [[Rexy 360: Controllers and inputs|Controllers and inputs]].
+
+== 3. Operate and record a move ==
+* Play the clip and operate. '''REC''' records your move as a take (a '''shot'''); '''PLAY''' plays it back.
+* '''I / O''' set the shot's In and Out. '''◆ MARK''' drops marks; '''✎''' (E) reshapes a track with anchors.
+* '''⇩ Save / ⇧ Load''' keep moves as <code>.rxmove</code> files.
+
+More in [[Rexy 360: Recording moves|Recording moves]].
+
+== 4. Time, look and music ==
+* '''Time''' — speed (with ramps), shutter angle (motion blur), trails, slow-motion frames. See [[Rexy 360: Time|Time]].
+* '''Colour''' — grade the shot, or load a .cube LUT. See [[Rexy 360: Colour|Colour]].
+* '''Audio''' — add music; '''Audio → Move…''' makes a move pulse or follow it. See [[Rexy 360: Audio and music|Audio and music]].
+
+== 5. Render ==
+'''Export — render queue''': pick a shape, size and codec (H.264, HEVC, ProRes), set the folder, and '''Render now''' (or queue several). Renders come from the full-resolution original, with the shot's look and sound. See [[Rexy 360: Rendering and export|Rendering and export]].
+
+== 6. Edit shots together ==
+Switch to '''EDIT''' (top left). Drag shots from the Library onto the timeline, trim, add overlay tracks with blend modes, transitions on cuts (◆), music, a grade over the whole Edit — then '''Render edit'''. See [[Rexy 360: Editing|Editing]].
+
+{{Rexy 360 nav}}

@@ -1,0 +1,16 @@
+Rexy 360 has '''a grade per shot''' and '''one over the whole Edit'''.
+
+== Grade controls ==
+* Exposure
+* Contrast
+* Highlights
+* Shadows
+* Saturation
+* Vibrance
+* Temperature
+* Tint
+
+== LUTs ==
+Load a '''.cube LUT''' and set its '''strength'''.
+
+{{Rexy 360 nav}}

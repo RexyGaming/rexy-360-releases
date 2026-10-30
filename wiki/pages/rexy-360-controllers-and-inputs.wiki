@@ -1,0 +1,38 @@
+Rexy 360 is designed for '''Rexy Wheels in joystick mode'''. It also works with gamepads, the keyboard, and a range of '''Alt Inputs'''.
+
+== Rexy Wheels and gamepads ==
+# Put Rexy Wheels in '''joystick mode''' and plug them in (or connect a gamepad).
+# In '''Head — Pan · Tilt · Roll''', click '''Bind''' on an axis, then move the wheel or stick you want. Zoom is bound in '''Lens'''.
+# Choose '''Absolute''' or '''Continuous''' under '''Wheels''' (see [[Rexy 360: The virtual head|The virtual head]]).
+
+On a Mac, allow '''Input Monitoring''' the first time a controller is read, then restart Rexy 360 (see [[Installing Rexy 360#Controllers and Input Monitoring|Installing]]).
+
+== Tuning an axis ==
+Each axis has Rexy Bridge's tuning controls:
+; S : Sensitivity
+; C : Curve
+; D : Damping
+; F : Filter
+'''C''' next to an input opens '''calibration''' and the '''Filter Lab'''.
+
+== Alt Inputs ==
+Alt Inputs are listed in this order: '''Mouse devices, OSC, MIDI, FreeD, NODO'''.
+
+=== Mouse devices (Windows) ===
+Hand wheels that only send a mouse signal over USB can drive Rexy 360 (since 1.0.2-beta).
+* Tick '''listen''' and every mouse shows up by name, with its x, y, wheel and buttons.
+* '''Bind''' a control and move the one you want.
+* It works like an absolute wheel: '''range''' sets how many counts cover a control, '''Zero''' re-centres.
+
+'''Ctrl+M''' detaches the cursor while the wheels drive: the pointer holds still (clicks and scrolling still work) and the wheels keep moving the head. Press Ctrl+M again — or switch to another app — to get the cursor back. It can also be bound in '''Functions'''.
+
+=== OSC, MIDI and FreeD ===
+Rexy 360 accepts OSC, MIDI and FreeD as inputs, bound the same way as other controls.
+
+=== NODO Inertia Wheels ===
+NODO wheels are read straight from the '''USB Receiver'''. Support is built from NODO's published data format and tested with simulated wheels — please report how it works with yours to rob@realprogear.com.
+
+== Keyboard ==
+The keyboard can drive Rexy 360 too, and functions (such as Ctrl+M) can be bound in '''Functions'''.
+
+{{Rexy 360 nav}}

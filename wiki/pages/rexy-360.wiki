@@ -1,0 +1,43 @@
+'''Rexy 360''' is a 360° reframing studio for camera operators. You drive a virtual remote head through your 360 footage with real wheels — pan, tilt, roll and zoom — shape the moves, cut them together and render.
+
+Rexy 360 is designed for use with '''Rexy Wheels in joystick mode''', and can be operated with a '''gamepad''' too. NODO Inertia Wheels, OSC, MIDI, FreeD, mouse-signal hand wheels and the keyboard can drive it as well.
+
+It is made by Real Pro Gear Ltd, designed by Robert Portazier, runs on Windows and macOS, and is '''free during the beta'''. The application is closed source.
+
+{| class="wikitable"
+! Current version
+| 1.0.2-beta
+|-
+! Platforms
+| Windows 10 / 11 (64-bit), macOS 12 or later (Apple Silicon and Intel)
+|-
+! Download
+| [https://github.com/RexyGaming/rexy-360-releases/releases/latest Latest release on GitHub]
+|-
+! Feedback
+| rob@realprogear.com
+|}
+
+== Start here ==
+* [[Installing Rexy 360]] — download, the unsigned-installer warnings, macOS Input Monitoring.
+* [[Rexy 360: Getting started|Getting started]] — open a clip, bind your wheels, record a move, render.
+
+== What it does ==
+* '''360 reframing''' — equirectangular (plus YouTube's cubemap and squashed 16:9, Insta360 .insv experimental), proxies for smooth scrubbing, renders from the full-resolution original. See [[Rexy 360: Importing footage|Importing footage]].
+* '''A virtual remote head''' — Absolute or Continuous wheel modes, Horizon or Frame roll, Swoop, Unlimited tilt, soft stops, Autolevel, per-axis tuning. See [[Rexy 360: The virtual head|The virtual head]] and [[Rexy 360: Controllers and inputs|Controllers and inputs]].
+* '''Lenses''' — a lens library of real zooms and primes, any frame shape (16:9, 9:16, 1:1 …) with guides, tiny-planet zoom. See [[Rexy 360: Lenses|Lenses]].
+* '''Time''' — speed ramps 1 %–10 000 %, shutter-angle motion blur, light trails, slow motion by frame blending or optical flow. See [[Rexy 360: Time|Time]].
+* '''Virtual motion control''' — record moves as takes, mark, anchor and reshape them; every take is a shot with its own In / Out and look. See [[Rexy 360: Recording moves|Recording moves]].
+* '''Audio''' — music and sound tracks, sync to the clip's sound, and '''Audio → Move''': moves that pulse with the beat or follow the loudness. See [[Rexy 360: Audio and music|Audio and music]].
+* '''Rexy Studio editing''' — projects and a library, an Edit timeline with overlays and blend modes, keyframes, dissolves, linked music. See [[Rexy 360: Editing|Editing]].
+* '''Colour''' — a grade per shot and over the whole Edit, and .cube LUTs. See [[Rexy 360: Colour|Colour]].
+* '''Import / export''' — files, Dropbox, Google Drive, YouTube (whole or a section); H.264, HEVC or ProRes. See [[Rexy 360: Rendering and export|Rendering and export]].
+
+== Words used in Rexy 360 ==
+; Clip : A 360° video you have imported.
+; Shot : A recorded move (a take) on a clip, with its own In / Out and look.
+; Shoot screen : The screen where you operate a clip and make shots.
+; Edit : The timeline where shots are cut together and rendered as one film.
+; Library : The right-hand panel listing a project's clips and shots.
+
+{{Rexy 360 nav}}

@@ -1,0 +1,10 @@
+== Lens library ==
+Rexy 360 has a lens library of '''real zooms and primes''', and you can make '''custom lenses'''. Bind the zoom control in the '''Lens''' section (see [[Rexy 360: Controllers and inputs|Controllers and inputs]]).
+
+== Frame shapes ==
+Any frame shape — 16:9, 9:16, 1:1 and more — with '''guides'''. The shape is also chosen when rendering (see [[Rexy 360: Rendering and export|Rendering and export]]).
+
+== Tiny planet ==
+Zoom out into the tiny-planet look.
+
+{{Rexy 360 nav}}

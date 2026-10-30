@@ -1,0 +1,8 @@
+The '''Time''' controls change how a shot plays.
+
+* '''Speed ramps''' from 1 % to 10 000 %.
+* '''Shutter angle''' for real motion blur.
+* '''Light trails'''.
+* '''Slow-motion frames''' made by frame blending or optical flow.
+
+{{Rexy 360 nav}}
