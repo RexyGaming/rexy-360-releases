@@ -1,5 +1,7 @@
 # Getting started with Rexy 360
 
+*The quick version. For every screen and panel, see the **[User Guide](USER_GUIDE.md)**.*
+
 ## 1. Install
 
 Download `Rexy360-Setup-<version>.exe` from the **[latest release](../../releases/latest)** and run it. The installer isn't code-signed yet, so Windows shows **"Windows protected your PC"** — click **More info → Run anyway**. Read and accept the licence, choose a folder, and start **Rexy 360**.

@@ -1,3 +1,17 @@
+# Rexy 360 1.0.3-beta — the user guide, and a tidier Edit
+
+## New
+- **User Guide** — every screen and panel explained, with pictures, in **Dark** and **Light**: [USER_GUIDE.md](USER_GUIDE.md) here, and as PDFs on the release page.
+- **Ctrl+Shift+P takes screenshots of the whole app** — Dark and Light, Shoot and Edit: the window as it is, the whole app at full length with every panel open, and each panel on its own, into Pictures\Rexy 360 screenshots. Your theme, screen and panels go back as they were.
+
+## Changed
+- **The first linked shot dropped into an empty Edit goes to its start**, wherever you drop it — no dead gap before the song. Later shots still find their own place in the music.
+- **Removing the last shot that uses the master music lets the Edit forget that song**, so the next shot you drop brings its own. Ctrl+Z brings back both.
+- **New project starts clean** — a clip you import into a new project no longer brings the moves and audio it had in other projects. Existing projects are unchanged.
+- **Soft Stops** fits a narrow panel: the + / − buttons go under the number instead of pushing the last column off the edge.
+
+---
+
 # Rexy 360 1.0.2-beta — wheels in mouse mode, YouTube cubemaps
 
 ## New
