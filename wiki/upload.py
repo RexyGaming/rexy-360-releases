@@ -10,6 +10,9 @@ Needs a bot password (Special:BotPasswords on the wiki, with the
   MIRAHEZE_BOT_USER      the bot login, e.g. RobPortazier@wiki-upload
   MIRAHEZE_BOT_PASSWORD  the bot password
 
+Any of these not set in the environment are read from ~/.config/rexy360-wiki.env
+(KEY=value lines), so they stay on your computer and out of the repository.
+
 Usage: python3 wiki/upload.py [--dry-run] [file.wiki ...]
 """
 import http.cookiejar
@@ -21,6 +24,17 @@ import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SUMMARY = "Rexy 360 documentation (from rexy-360-releases/wiki)"
+ENV_FILE = os.path.expanduser("~/.config/rexy360-wiki.env")
+
+
+def load_env_file():
+    if not os.path.exists(ENV_FILE):
+        return
+    with open(ENV_FILE, encoding="utf-8") as f:
+        for line in f:
+            key, sep, value = line.strip().partition("=")
+            if sep and not key.startswith("#"):
+                os.environ.setdefault(key.strip(), value.strip().strip("'\""))
 
 
 def main():
@@ -38,7 +52,8 @@ def main():
             print(f"would upload {name} -> {title}")
         return
 
-    host = os.environ["MIRAHEZE_WIKI"].removeprefix("https://").strip("/")
+    load_env_file()
+    host =os.environ["MIRAHEZE_WIKI"].removeprefix("https://").strip("/")
     api = f"https://{host}/w/api.php"
     opener = urllib.request.build_opener(
         urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
