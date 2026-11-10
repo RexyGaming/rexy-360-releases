@@ -32,6 +32,7 @@ Rexy 360 checks for updates when it starts (and from **About → Check for updat
 ## 📖 Documentation
 
 - **[Getting Started](GETTING_STARTED.md)** — open a clip, bind your wheels, record a move, render (start here).
+- **[User Guide](USER_GUIDE.md)** — every screen and panel, with pictures (they follow your GitHub theme). Also as a PDF, Dark or Light, on the [latest release](../../releases/latest).
 - **[Release notes](RELEASE_NOTES.md)** — what's in each version.
 
 ## What it does
