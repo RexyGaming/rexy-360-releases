@@ -154,6 +154,7 @@ Other things that can drive the head. Turn one on, then click any **Bind** and m
 - **MIDI in** — **Enable MIDI**, then any controller's knobs and faders.
 - **FreeD in** — tracking heads (stYpe, Mo-Sys, Vive Mars…) drive the head by their real angles.
 - **NODO in** — NODO Inertia Wheels through their USB receiver.
+- **Alpha Wheels in** — 1A Alpha Wheels straight from their USB port. Tick **listen**, bind pan and tilt, turn the wheels; **Zero** makes their current position the centre. Rexy 360 puts them in serial mode while listening and gives them their own mode back when you stop — quit AW Translator first. **Record 10s** saves a trace to send to Rob if something isn't right.
 
 ## Log
 
