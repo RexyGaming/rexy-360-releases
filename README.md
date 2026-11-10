@@ -2,7 +2,7 @@
 
 **A 360° reframing studio for camera operators.** Drive a virtual remote head through your 360 footage with real wheels — pan, tilt, roll, zoom — shape the moves, cut them together and render.
 
-Rexy 360 is designed for use with **Rexy Wheels in joystick mode**, and can be operated with a **gamepad** too. NODO Inertia Wheels, OSC, MIDI, FreeD and the keyboard can drive it as well.
+Rexy 360 is designed for use with **Rexy Wheels in joystick mode**, and can be operated with a **gamepad** too. NODO Inertia Wheels, 1A Alpha Wheels, mouse-mode wheels (Windows), OSC, MIDI, FreeD and the keyboard can drive it as well.
 
 This repository is the **download page and documentation** for Rexy 360. (The application is closed source, and free during the beta.)
 

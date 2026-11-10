@@ -6,6 +6,8 @@
 
 Download `Rexy360-Setup-<version>.exe` from the **[latest release](../../releases/latest)** and run it. The installer isn't code-signed yet, so Windows shows **"Windows protected your PC"** — click **More info → Run anyway**. Read and accept the licence, choose a folder, and start **Rexy 360**.
 
+**On a Mac** (macOS 12 or later), download `Rexy360-<version>-arm64.dmg` for Apple Silicon (M1 and later) or `Rexy360-<version>-x64.dmg` for an Intel Mac, open it and drag **Rexy 360** to Applications. The first time, **right-click Rexy 360 → Open → Open** (it isn't code-signed yet). When it first reads a gamepad or Rexy Wheels, allow **Input Monitoring**, then restart Rexy 360. On a Mac, use **Cmd** wherever the guides say **Ctrl**.
+
 On first launch Rexy 360 makes **My first project** in `Documents\Rexy Studio Projects`.
 
 ## 2. Open a 360 clip
@@ -21,6 +23,8 @@ A proxy builds in the background (progress at the bottom of the viewer) so scrub
 2. In **Head — Pan · Tilt · Roll**, click **Bind** on Pan, then turn the pan wheel. Do the same for Tilt and Roll — and Zoom in **Lens**.
 3. Choose **Absolute** (the wheel position is the angle) or **Continuous** (the wheel drives a speed, like a fluid head) under **Wheels**.
 4. Fine-tune each axis with **S** (sensitivity), **C** (curve), **D** (damping) and **F** (filter). **C** next to an input opens calibration and the Filter Lab.
+
+Other wheels — **NODO Inertia Wheels**, **1A Alpha Wheels**, wheels that only send a mouse signal (Windows) — and OSC, MIDI and FreeD are switched on in the **Alt Inputs** panel: tick **listen**, then Bind as above.
 
 ## 4. Operate and record a move
 

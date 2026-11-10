@@ -7,6 +7,7 @@
 ## Good to know
 - Alpha Wheels support has been tested with simulated wheels, not yet with real ones — please report how it works with yours.
 - NODO Inertia Wheels still find their Receiver the same way as before.
+- **User Guide updated** — new pictures throughout, the Alpha Wheels card, and notes for Mac users (Cmd for Ctrl, first launch, updates).
 
 ---
 

@@ -1,8 +1,10 @@
 # Rexy 360 — User Guide
 
-**Version 1.0.3-beta** · Rexy 360 is a 360° reframing studio for camera operators: you drive a virtual remote head through 360 footage with real wheels, record the moves, shape them, cut them together and render.
+**Version 1.0.4-beta** · Rexy 360 is a 360° reframing studio for camera operators: you drive a virtual remote head through 360 footage with real wheels, record the moves, shape them, cut them together and render.
 
 This guide walks through every part of the app. The pictures follow your theme — Rexy 360 has a **Dark** and a **Light** look (top bar → **Theme**).
+
+Rexy 360 runs on **Windows 10 / 11** and **macOS 12 or later** (Apple Silicon and Intel). It works the same on both; on a Mac, use **Cmd** wherever this guide says **Ctrl**.
 
 **Contents** — [The two screens](#the-two-screens) · [The Shoot screen](#the-shoot-screen) · [Library](#library) · [Head — Pan · Tilt · Roll](#head--pan--tilt--roll) · [Lens — Frame · Lens · Zoom](#lens--frame--lens--zoom) · [Time — Speed · Shutter · Trails](#time--speed--shutter--trails) · [Virtual MoCo — recording moves](#virtual-moco--recording-moves) · [Audio](#audio) · [Colour — Grade · LUT](#colour--grade--lut) · [Export — render queue](#export--render-queue) · [Soft Stops](#soft-stops) · [Functions](#functions) · [Gamepad Debug](#gamepad-debug) · [Alt Inputs](#alt-inputs) · [Log](#log) · [The Edit screen](#the-edit-screen) · [Edit timeline](#edit-timeline) · [Edit audio](#edit-audio) · [Keyboard shortcuts](#keyboard-shortcuts) · [Help](#help)
 
@@ -13,7 +15,7 @@ Rexy 360 has two screens, switched at the top left:
 - **Shoot** — operate one 360 clip: frame it with the head and lens, record moves (vMoCo), set the time and look, add music, and render a shot.
 - **Edit** — put shots together on a timeline with music, and render the whole edit.
 
-Projects save themselves as you work (**Ctrl+S** saves at once).
+Projects save themselves as you work (**Ctrl+S** saves at once — **Cmd+S** on a Mac).
 
 ## The Shoot screen
 
@@ -149,12 +151,12 @@ Shows every controller Rexy 360 can see and what each axis and button is doing �
 
 Other things that can drive the head. Turn one on, then click any **Bind** and move the input. **C** next to an input opens calibration and the Filter Lab.
 
-- **Mouse devices** (Windows) — wheels that only send a mouse signal over USB. Tick **listen** and every mouse shows up by name; bind the one you want. **Range** sets how many counts cover a control; **Zero** re-centres. **Detach cursor (Ctrl+M)** holds the pointer still while the wheels drive — Ctrl+M again, or switching to another app, gives it back.
+- **Mouse devices** (Windows only for now) — wheels that only send a mouse signal over USB. Tick **listen** and every mouse shows up by name; bind the one you want. **Range** sets how many counts cover a control; **Zero** re-centres. **Detach cursor (Ctrl+M)** holds the pointer still while the wheels drive — Ctrl+M again, or switching to another app, gives it back.
 - **OSC in** — a port and an optional address prefix; drive as an axis (wheel) or a fader.
 - **MIDI in** — **Enable MIDI**, then any controller's knobs and faders.
 - **FreeD in** — tracking heads (stYpe, Mo-Sys, Vive Mars…) drive the head by their real angles.
-- **NODO in** — NODO Inertia Wheels through their USB receiver.
-- **Alpha Wheels in** — 1A Alpha Wheels straight from their USB port. Tick **listen**, bind pan and tilt, turn the wheels; **Zero** makes their current position the centre. Rexy 360 puts them in serial mode while listening and gives them their own mode back when you stop — quit AW Translator first. **Record 10s** saves a trace to send to Rob if something isn't right.
+- **NODO in** — NODO Inertia Wheels through their USB receiver. (Windows may need the Silicon Labs CP210x driver: nodo.film/driver.)
+- **Alpha Wheels in** — 1A Alpha Wheels over USB: the **pan** and **tilt** wheels, plus the Alpha Link knobs (**panKnob** and **tiltKnob**). Plug the wheels in and tick **listen** — Rexy 360 finds them by itself and switches them to their serial mode while it reads them; unticking (or closing Rexy 360) puts them back in the mode you had, so they work as before in other apps. Use **Absolute** wheel mode. The wheels start at centre wherever they are; **Zero** re-centres, and **range** sets how many degrees one turn of a wheel covers (at 360°, one turn of the wheel takes the camera all the way round). If a direction is the wrong way round, use **Inv** on that axis. **Record 10s** saves a short file of what the wheels sent — if anything isn't right, send it to Rob. (Quit AW Translator first — only one app can use the wheels' port at a time.)
 
 ## Log
 
@@ -208,14 +210,17 @@ The Edit has its own audio tracks, on Edit time. **Shot sound** is each shot's o
 | Delete | — | Remove the selected shot |
 | Ctrl+Z / Ctrl+Y | — | Undo / redo |
 | Ctrl+S | Save the project now | Save the project now |
-| Ctrl+M | Detach / attach the cursor (mouse-device wheels) | |
+| Ctrl+M | Detach / attach the cursor (mouse-device wheels, Windows) | |
 | Ctrl+Shift+P | Screenshots of the whole app, dark and light, into Pictures | |
 
-Keys you bind in the panels take priority over these.
+On a Mac, Ctrl is **Cmd** (Cmd+S, Cmd+Z, Cmd+Shift+P …). Keys you bind in the panels take priority over these.
 
 ## Help
 
-- **About** shows the version, licence and **Check for updates**. Rexy 360 also checks when it starts; on Windows an update downloads in the background and the top bar offers **Restart to update**.
+- **About** shows the version, licence and **Check for updates**. Rexy 360 also checks when it starts.
+  - **Windows** — the update downloads in the background and the top bar offers **Restart to update** (your project is saved first).
+  - **Mac** — the top bar shows **⬇ Download**, which opens the download page; install the new .dmg over the old app.
+- **Mac, first launch** — the app isn't code-signed yet, so the first time **right-click Rexy 360 → Open → Open**. The first time it reads a gamepad or Rexy Wheels, macOS asks for **Input Monitoring** — allow it, then restart Rexy 360.
 - Questions, bugs and ideas: **rob@realprogear.com**.
 
 © 2026 Real Pro Gear Ltd. Designed by Robert Portazier.
